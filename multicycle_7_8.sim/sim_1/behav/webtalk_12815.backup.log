@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:54:47 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sat Mar 28 15:22:14 2026
+# Process ID: 12815
+# Current directory: /home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.sim/sim_1/behav
+# Command line: wbtcv -mode batch -source /home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.sim/sim_1/behav/xsim.dir/tb_multicycle_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.sim/sim_1/behav/webtalk.log
+# Journal file: /home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.sim/sim_1/behav/webtalk.jou
+#-----------------------------------------------------------
+source /home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.sim/sim_1/behav/xsim.dir/tb_multicycle_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Mar 28 15:22:15 2026...

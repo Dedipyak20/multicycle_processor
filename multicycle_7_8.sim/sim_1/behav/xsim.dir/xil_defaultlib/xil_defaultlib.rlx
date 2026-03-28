@@ -1,0 +1,21 @@
+0.6
+2017.1
+Apr 14 2017
+18:58:24
+/home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.sim/sim_1/behav/glbl.v,1492045074,verilog,,,,glbl,,,,,,,,
+/home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.srcs/sim_1/new/tb_multicycle.v,1774690999,verilog,,,,tb_multicycle,,,,,,,,
+/home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.srcs/sources_1/new/alu.v,1773565992,verilog,,,,alu,,,,,,,,
+/home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.srcs/sources_1/new/alu_control.v,1773566329,verilog,,,,alu_control,,,,,,,,
+/home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.srcs/sources_1/new/control_decoder.v,1774261184,verilog,,,,control_decoder,,,,,,,,
+/home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.srcs/sources_1/new/instruction_decoder.v,1774691459,verilog,,,,instruction_decoder,,,,,,,,
+/home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.srcs/sources_1/new/instruction_memory.v,1774262587,verilog,,,,instruction_memory,,,,,,,,
+/home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.srcs/sources_1/new/main.v,1774691548,verilog,,,,main,,,,,,,,
+/home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.srcs/sources_1/new/memory_data_register.v,1774262837,verilog,,,,memory_data_register,,,,,,,,
+/home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.srcs/sources_1/new/mux.v,1774264483,verilog,,,,mux,,,,,,,,
+/home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.srcs/sources_1/new/mux_2_32.v,1774264227,verilog,,,,mux_2_32,,,,,,,,
+/home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.srcs/sources_1/new/mux_4.v,1774264370,verilog,,,,mux_4,,,,,,,,
+/home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.srcs/sources_1/new/program_counter.v,1774689845,verilog,,,,program_counter,,,,,,,,
+/home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.srcs/sources_1/new/registers.v,1774263762,verilog,,,,registers,,,,,,,,
+/home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.srcs/sources_1/new/shift_left_2.v,1774691527,verilog,,,,shift_left_2,,,,,,,,
+/home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.srcs/sources_1/new/shift_left_32.v,1774690421,verilog,,,,shift_left_32,,,,,,,,
+/home/26CAP1G2/Desktop/multicycle_7_8/multicycle_7_8.srcs/sources_1/new/sign_extend.v,1774690266,verilog,,,,sign_extend,,,,,,,,
