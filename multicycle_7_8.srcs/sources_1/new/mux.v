@@ -27,8 +27,8 @@ input s;
 output reg[4:0] out;
 
 always@(*) begin
- if(s==0) assign out = i0;
- else if(s==1) assign out = i1;
+    if(s==0) out = i0;
+    else out = i1;
 end
 
 endmodule

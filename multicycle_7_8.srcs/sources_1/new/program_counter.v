@@ -1,39 +1,23 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 03/02/2026 04:18:42 PM
-// Design Name: 
-// Module Name: program_counter
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
+module program_counter(clk, rst, PCWrite, PCWriteCond, PCWriteCondNEQ, zero, next_addr, addr);
 
-module program_counter(clk,PCWrite,PCWriteCond,zero, addr,next_addr);
-
-input PCWrite;
-input PCWriteCond;
-input zero;
-input clk;
+input  clk, rst;
+input  PCWrite;
+input  PCWriteCond;     // branch if equal    (zero == 1)
+input  PCWriteCondNEQ;  // branch if not equal (zero == 0)
+input  zero;
 input  [31:0] next_addr;
 output reg [31:0] addr;
 
-wire control;
-assign control = (zero & PCWriteCond) | PCWrite;
+wire pc_enable;
+assign pc_enable = PCWrite
+                 | (PCWriteCond    &  zero)
+                 | (PCWriteCondNEQ & ~zero);
 
-always@(control) begin 
-    addr = next_addr;
+always @(posedge clk or posedge rst) begin
+    if (rst)          addr <= 32'h00000000;
+    else if (pc_enable) addr <= next_addr;
 end
 
 endmodule

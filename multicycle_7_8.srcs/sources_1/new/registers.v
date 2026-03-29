@@ -29,12 +29,18 @@ input regwrite;
 output [31:0] r1,r2;
 reg [31:0] memory_regfile [0:31];
 
+integer i;
+initial begin
+    for (i = 0; i < 32; i = i + 1)
+        memory_regfile[i] = 32'b0;
+end
+
 
 
     assign r1 = memory_regfile[rs];
     assign r2 = memory_regfile[rt];
     
-    always@(clk) begin
+    always@(posedge clk) begin
     if(regwrite==1) begin
             memory_regfile[write_register]<=write_reg_data;
         end 

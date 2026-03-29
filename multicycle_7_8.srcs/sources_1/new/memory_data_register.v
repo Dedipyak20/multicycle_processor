@@ -21,10 +21,15 @@
 
 
 module memory_data_register(
+    input clk,
+    input rst,
     input [31:0] mem_data,
-    output [31:0] write_reg_data
+    output reg [31:0] write_reg_data
     );
     
-    assign write_reg_data = mem_data;
+    always@(posedge clk or posedge rst) begin
+        if (rst) write_reg_data <= 32'b0;
+        else     write_reg_data <= mem_data;
+    end
     
 endmodule
